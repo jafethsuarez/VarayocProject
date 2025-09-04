@@ -25,9 +25,9 @@ export default function Users() {
             <div className="mt-8">
               <StoriesCarousel
                 items={[
-                  { image: "/images/story-1.jpg", quote: "Mi hijo ahora corre y juega con confianza gracias a sus zapatos Varayoc.", author: "Madre de Matías" },
-                  { image: "/images/story-2.jpg", quote: "Los colores y personajes que eligió lo motivan a usarlos todos los días.", author: "Papá de Sofía" },
-                  { image: "/images/story-3.jpg", quote: "La adaptación a su prótesis fue perfecta, sin rozaduras." },
+                  { image: "/images/niño.png", quote: "Mi hijo ahora corre y juega con confianza gracias a sus zapatos Varayoc.", author: "Madre de Matías" },
+                  { image: "/images/niño.png", quote: "Los colores y personajes que eligió lo motivan a usarlos todos los días.", author: "Papá de Sofía" },
+                  { image: "/images/niño.png", quote: "La adaptación a su prótesis fue perfecta, sin rozaduras." },
                 ]}
               />
             </div>
@@ -39,7 +39,7 @@ export default function Users() {
             <div className="mt-4 grid gap-4 sm:grid-cols-2">
               <div className="rounded-xl border border-gray-200 p-4">
                 <p className="text-sm font-medium text-gray-700">Zapato normal</p>
-                <img src="/images/before.jpg" alt="Zapato normal" className="mt-2 h-40 w-full rounded-lg object-cover" />
+                <img src="/images/niño.png" alt="Zapato normal" className="mt-2 h-40 w-full rounded-lg object-cover" />
                 <ul className="mt-3 space-y-1 text-xs text-gray-600 list-disc list-inside">
                   <li>No considera la prótesis</li>
                   <li>Riesgo de fricción</li>
@@ -48,7 +48,7 @@ export default function Users() {
               </div>
               <div className="rounded-xl border border-gray-200 p-4">
                 <p className="text-sm font-medium text-gray-700">Zapato adaptado Varayoc</p>
-                <img src="/images/after.jpg" alt="Zapato adaptado" className="mt-2 h-40 w-full rounded-lg object-cover" />
+                <img src="/images/niño.png" alt="Zapato adaptado" className="mt-2 h-40 w-full rounded-lg object-cover" />
                 <ul className="mt-3 space-y-1 text-xs text-gray-600 list-disc list-inside">
                   <li>Ajuste ergonómico</li>
                   <li>Mayor comodidad y apoyo</li>

@@ -18,7 +18,7 @@ export default function About() {
         <div>
           {/* Reemplaza por tu imagen */}
           <img
-            src="/images/about-collab.jpg"
+            src="/images/niño.png"
             alt="Zapatero, médico y familia colaborando"
             className="h-80 w-full rounded-3xl border border-gray-200 object-cover shadow-sm"
           />

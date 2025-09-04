@@ -29,10 +29,10 @@ export default function WhatWeDo() {
 
           <div className="grid gap-4 sm:grid-cols-2">
             {/* Reemplaza por tus mockups */}
-            <img src="/images/model-1.jpg" alt="Zapatos adaptados 1" className="h-56 w-full rounded-2xl border border-gray-200 object-cover" />
-            <img src="/images/model-2.jpg" alt="Zapatos adaptados 2" className="h-56 w-full rounded-2xl border border-gray-200 object-cover" />
-            <img src="/images/model-3.jpg" alt="Zapatos adaptados 3" className="h-56 w-full rounded-2xl border border-gray-200 object-cover" />
-            <img src="/images/model-4.jpg" alt="Zapatos adaptados 4" className="h-56 w-full rounded-2xl border border-gray-200 object-cover" />
+            <img src="/images/niño.png " alt="Zapatos adaptados 1" className="h-56 w-full rounded-2xl border border-gray-200 object-cover" />
+            <img src="/images/niño.png  " alt="Zapatos adaptados 2" className="h-56 w-full rounded-2xl border border-gray-200 object-cover" />
+            <img src="/images/niño.png" alt="Zapatos adaptados 3" className="h-56 w-full rounded-2xl border border-gray-200 object-cover" />
+            <img src="/images/niño.png" alt="Zapatos adaptados 4" className="h-56 w-full rounded-2xl border border-gray-200 object-cover" />
           </div>
         </div>
       </Section>

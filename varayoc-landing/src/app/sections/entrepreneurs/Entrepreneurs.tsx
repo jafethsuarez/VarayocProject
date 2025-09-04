@@ -35,7 +35,7 @@ export default function Entrepreneurs() {
         </div>
         {/* Reemplaza por tu imagen */}
         <img
-          src="/images/shoemaker.jpg"
+          src="/images/niño.png"
           alt="Zapatero trabajando"
           className="h-48 w-full rounded-2xl border border-gray-200 object-cover"
         />
