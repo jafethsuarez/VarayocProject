@@ -5,7 +5,8 @@ import { FiTarget, FiEye, FiHeart } from "react-icons/fi";
 
 export default function About() {
   return (
-    <Section id="quienes-somos" className="py-16">
+    <Section id="quienes-somos" fullBleed className="py-16  bg-[#A0D8F1]">
+      <h1 className="text-2xl font-bold text-[#34495E] text-center mb-6">¿Quiénes somos?</h1>
       <div className="grid items-center gap-10 lg:grid-cols-2">
         <div className="space-y-6">
           <div className="grid gap-5 sm:grid-cols-3">
@@ -13,12 +14,11 @@ export default function About() {
             <FeatureCard icon={<FiEye />} title="Visión 👀" desc="Ser líderes en innovación de calzado ortopédico infantil en Perú." />
             <FeatureCard icon={<FiHeart />} title="Valores 🌈" desc="Inclusión, creatividad, calidad e innovación social." />
           </div>
-          <p className="text-sm text-gray-700 italic">“Unimos manos, corazones y talento para transformar pasos.”</p>
+          <p className="text-sm text-[#34495E] italic">“Mejorar la calidad de vida de los niños con prótesis brindando calzado inclusivo, funcional y atractivo.”</p>
         </div>
         <div>
-          {/* Reemplaza por tu imagen */}
           <img
-            src="/images/niño.png"
+            src="/images/imagenAbout.jpg"
             alt="Zapatero, médico y familia colaborando"
             className="h-80 w-full rounded-3xl border border-gray-200 object-cover shadow-sm"
           />

@@ -7,18 +7,17 @@ export default function SiteHeader() {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/70 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-gray-200 bg-[#A0D8F1] backdrop-blur">
       <Section className="flex items-center justify-between py-3">
-        <a href="#" className="flex items-center gap-2 font-semibold text-gray-900">
-          <span className="inline-block h-2.5 w-2.5 rounded-full bg-violet-600" />
-          Varayoc
+        <a href="#" className="flex items-center gap-2 font-semibold text-[#34495E]">
+          PettitWalk
         </a>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
-          <a className="text-gray-600 hover:text-gray-900" href="#quienes-somos">¿Quiénes somos?</a>
-          <a className="text-gray-600 hover:text-gray-900" href="#que-hacemos">¿Qué hacemos?</a>
-          <a className="text-gray-600 hover:text-gray-900" href="#para-emprendedores">Emprendedores</a>
-          <a className="text-gray-600 hover:text-gray-900" href="#para-usuarios">Usuarios</a>
+          <a className="text-[#34495E] hover:text-[#3b3b7a]" href="#quienes-somos">¿Quiénes somos?</a>
+          <a className="text-[#34495E] hover:text-[#3b3b7a]" href="#que-hacemos">¿Qué hacemos?</a>
+          <a className="text-[#34495E] hover:text-[#3b3b7a]" href="#para-emprendedores">Emprendedores</a>
+          <a className="text-[#34495E] hover:text-[#3b3b7a]" href="#para-usuarios">Usuarios</a>
         </nav>
 
         <div className="hidden md:flex">

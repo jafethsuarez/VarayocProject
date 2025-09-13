@@ -9,7 +9,7 @@ import Hero from "./sections/hero/Hero";
 
 export default function Page() {
   const heroVideo = {
-    src: "/videos/hero-loop.mp4",
+    src: "/videos/niñoscorriendo.mp4",
     poster: "/images/niño.png",
   };
 

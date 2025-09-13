@@ -16,7 +16,7 @@ export default function WhatWeDo() {
               <li>2. Prótesis parcial de pie (dedos o parte del pie).</li>
             </ul>
 
-            <h3 className="mt-6 text-lg font-semibold text-gray-900">Beneficios del calzado Varayoc</h3>
+            <h3 className="mt-6 text-lg font-semibold text-gray-900">Beneficios del calzado</h3>
             <ul className="mt-3 space-y-3">
               <Bullet>Adaptación ergonómica a la prótesis.</Bullet>
               <Bullet>Comodidad al caminar y jugar.</Bullet>
